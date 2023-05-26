@@ -1,5 +1,4 @@
 import React from 'react'
-import Questions from './Questions'
 import {decode} from 'html-entities';
 
 export default function Answers(props){

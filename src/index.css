@@ -116,6 +116,11 @@ h1{
     gap: 10px;
 }
 
+@media (max-width: 406px){
+    .questions-page{
+        margin-top: .5em;
+    }
+}
 
 
   
