@@ -80,7 +80,7 @@ h1{
 .questions-page{
     width: 80%;
     margin: 0 auto;
-    height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,9 +116,26 @@ h1{
     gap: 10px;
 }
 
-@media (max-width: 406px){
+@media screen and (max-width: 611px){
     .questions-page{
+        max-height: 50vh;
+        justify-content: start;
+        align-items: center;
+        box-sizing: border-box;
         margin-top: .5em;
+    }
+
+    .unselected-btn{
+        margin-top: .3em;
+        margin-right: .5em;
+    }
+
+    .question{
+        padding: .6em 0;
+    }
+
+    body{
+        line-height: 1;
     }
 }
 
