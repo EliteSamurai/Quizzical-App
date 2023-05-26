@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f6fb;
+    color: #293264;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+    max-width: 100%;
+}
+
+h1{
+    font-family: "Karla", sans-serif;
+    margin-bottom: .2em;
+}
+
+.start-btn{
+    background-color: #293264;
+    color: #f4f6fb;
+    border: none;
+    border-radius: 15px;
+    padding: .8em 3em;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 2em;
+}
+
+.start-btn:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.start-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/blob\ 5.png), url(./images/blob\ 5\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+    background-size: 250px;
+}
+
+.unselected-btn{
+    background-color: #F5F7FB;
+    border-radius: 8px;
+    border: 1px solid #4D5B9E;
+    color: #293264;
+    padding: .3em .7em;
+    margin-right: .5em;
+    margin-top: 1em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #D6DBF5;
+}
+
+.correct{
+    background-color: #94D7A2;
+}
+
+.wrong{
+    background-color: #F8BCBC;
+    opacity: .5;
+}
+
+.dimmed{
+    opacity: .5;
+}
+
+.questions-page{
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+}
+
+.question{
+    border-bottom: 1px solid #DBDEF0;
+    padding: 1em 0;
+    width: 100%;
+}
+
+.check-btn{
+    margin-top: 1em;
+}
+
+.check-btn, .play-again-btn{
+    background-color: #4D5B9E;
+    border-radius: 10px;
+    color: #F5F7FB;
+    padding: 1em;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.results{
+    display: flex;
+    margin-top: 1em;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+  
